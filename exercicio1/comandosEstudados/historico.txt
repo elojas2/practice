@@ -1,0 +1,935 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    3   (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/eloyse.fernanda/.zprofile
+    4  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    5   (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/eloyse.fernanda/.zprofile
+    6  (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/eloyse.fernanda/.zprofile
+    7  brew -v
+    8  eval "$(/usr/local/bin/brew shellenv)"
+    9  brew -v
+   10  brew -v
+   11  brew update
+   12  brew upgrade
+   13  brew install vscode
+   14  brew install --cask visual-studio-code
+   15  brew install git
+   16  brew install zsh
+   17  brew cask install iterm2
+   18  brew --cask install iterm2
+   19  brew install --cask iterm2
+   20  upgrade_oh_my_zsh
+   21  zsh --version
+   22  open ~/.zshrc
+   23  git clone https://github.com/romkatv/powerlevel10k.git
+   24  exec zsh
+   25  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+   26  p10k configure
+   27  ls
+   28  cd powerlevel10k
+   29  p10k configure
+   30  ~/.p10k.zsh
+   31  brew install powerlevel10k\necho "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+   32  p10k configure
+   33  
+   34  ls
+   35  cd powerlevel10k
+   36  -h
+   37  -help
+   38  clear
+   39  git config
+   40  git config --global user.name "eloyse.fernanda"
+   41  git config --global user.email eloyse.fernanda@g.globo
+   42  git config --global --list
+   43  git config --global core.editor vim
+   44  git config --global color.ui true
+   45  git help
+   46  mkdir project
+   47  cd project
+   48  git init
+   49  echo "novo projeto" > README
+   50  git add README
+   51  git commit -m "ädicionando readme do projeto"
+   52  git status
+   53  git clone https://gitlab.globoi.com/marcelo.vieira/git-workshop.git
+   54  echo "metal" > AUTHORS
+   55  git add AUTHORS
+   56  git status
+   57  echo "modificacao" > README
+   58  git status
+   59  git add
+   60  git add .
+   61  git status
+   62  git diff
+   63  echo "modificaca aao" > README
+   64  git diff
+   65  cd project
+   66  git diff
+   67  cd project
+   68  git status
+   69  echo "modificaca aao" > README
+   70  git status
+   71  git diff
+   72  cd project
+   73  git diff --cached
+   74  git commit -a -m "äaaa"
+   75  cd project
+   76  git commit -a -m "äaaa"
+   77  git checkout README
+   78  git rm README
+   79  git checkout README
+   80  git mv project/AUTHORS/teste
+   81  git mv project/AUTHORS ptoject/teste
+   82  git mv AUTHORS teste
+   83  git status
+   84  git log
+   85  cd project
+   86  git log -p
+   87  cd project
+   88  git show
+   89  cd project
+   90  git branch
+   91  cd project
+   92  git branch teste
+   93  git checkout
+   94  mkdir newtest
+   95  https://gitlab.globoi.com/lourenco.sander/git-workshop.git
+   96  git clone https://gitlab.globoi.com/lourenco.sander/git-workshop.git
+   97  cd newtest
+   98  git status
+   99  git init
+  100  git clone https://gitlab.globoi.com/lourenco.sander/git-workshop.git
+  101  git blame
+  102  mkdir elojasfork
+  103  git clone https://gitlab.globoi.com/eloyse.fernanda/git-workshop.git
+  104  git init
+  105  cd newtest
+  106  git status
+  107  git clone https://gitlab.globoi.com/eloyse.fernanda/git-workshop.git
+  108  git status
+  109  git init
+  110  git branch -b teste
+  111  git branch dev
+  112  git checkout
+  113  git checkout dev
+  114  git branch
+  115  echo "teste para commit" > README
+  116  git status
+  117  echo "teste 2 para commit" > TESTE
+  118  git add TESTE
+  119  git status
+  120  git add README
+  121  git status
+  122  git mv README/AUTHORS
+  123  git mv git-workshop/README git-workshop/AUTHORS
+  124  git mv README git-workshop/AUTHORS
+  125  git mv git-workshop/TESTE git-workshop/AUTHORS
+  126  git mv TESTE git-workshop/AUTHORS
+  127  git commit -m "tentando subir"
+  128  git mv TESTE git-workshop/AUTHORS
+  129  cd git-workshop
+  130  ls
+  131  cd git-workshop
+  132  git branch dev -b renaming
+  133  git checkout dev -b renaming
+  134  git mv /newtest/git-workshop/TESTE /newtest/git-workshop/AUTHOR
+  135  git mv /git-workshop/TESTE /git-workshop/AUTHOR
+  136  git mv git-workshop/TESTE git-workshop/AUTHOR
+  137  git mv /TESTE/AUTHOR
+  138  git mv TESTE AUTHOR
+  139  git mv README LICENSE
+  140  git add .
+  141  git status
+  142  git commit -m "mudanca de nomes de arquivo"
+  143  git checkout master
+  144  git merge renaming
+  145  git checkout
+  146  git branch dev
+  147  git branch master
+  148  git tag 0.1.0
+  149  git status
+  150  git push
+  151  git commit --amend
+  152  git checkout experiment
+  153  git branch experiment
+  154  git status
+  155  git pull
+  156  git log
+  157  git checkout 
+  158  git pull
+  159  git status
+  160  git push
+  161  git pull master
+  162  git pull --rebase
+  163  git checkout experiment
+  164  git rebase master
+  165  git checkout master
+  166  git merge experiment
+  167  git blame AUTHOR
+  168  git stash
+  169  git status
+  170  git stash list
+  171  git stash apply
+  172  git add .
+  173  git push
+  174  git status
+  175  git commit -m "testando git stash"
+  176  git push
+  177  git cherry-pick 8755d2c
+  178  echo "metal" > AUTHORS
+  179  echo "metal" > AUTHOR
+  180  git log
+  181  git stash
+  182  git stash list
+  183  git cherry-pick ac200ef
+  184  git checkout dev
+  185  git stash
+  186  git cherry-pick ac200ef
+  187  git status
+  188  git blame 
+  189  git blame README
+  190  git status
+  191  git branch
+  192  git renaming
+  193  git checkout renaming
+  194  git cherry-pick ac200ef
+  195  git checkout dev
+  196  git stash
+  197  git checkout master
+  198  git stash
+  199  git checkout dev
+  200  git merge master
+  201  git checkout master
+  202  git revert
+  203  git revert ac200ef
+  204  git branch inter
+  205  git checkout inter
+  206  echo > "criacao de arquivo" > run.sh
+  207  echo > run.sh
+  208  git add .
+  209  git commit "adicao do arquivo run.sh"
+  210  git push
+  211  git push origin master run.sh
+  212  git push --set-upstream
+  213  git push --set-upstream origin inter
+  214  git commit -m "adicao do arquivo run.sh"
+  215  git push
+  216  mkdir build
+  217  cd build
+  218  echo > build.sh
+  219  echo > test.sh
+  220  git commit -m "criacao do build, build.sh e test.sh"
+  221  git add .
+  222  git commit -m "criacao do build, build.sh e test.sh"
+  223  git cherry-pick
+  224  git log
+  225  git cherry-pick 16f010dc43ef10dd6a333e02a7688fffa969dfb1
+  226  git log
+  227  git branch
+  228  git checkout
+  229  git checkout inter
+  230  git branch inter
+  231  git cherry-pick --ski[
+  232  git cherry-pick --skip
+  233  git fetch
+  234  git cherry-pick 16f010dc43ef10dd6a333e02a7688fffa969dfb1
+  235  git status
+  236  git commit -m "cherry pick da branch inter"
+  237  git push
+  238  git checkout inter
+  239  git checkout -b squashing inter
+  240  git rebase -i HEAD˜3
+  241  pwd
+  242  ls
+  243  ls -lah
+  244  man ls
+  245  ls --help
+  246  ls -help
+  247  man ls
+  248  man alias
+  249  alias ls-elo='ls --color=auto'
+  250  ls
+  251  ls-elo
+  252  alias ls-elo='ls -lah'
+  253  ls-elo
+  254  history
+  255  history | grep metal
+  256  history | grep cherry-pick
+  257  history | grep cherry-pick -n2
+  258  ls
+  259  cd newtest
+  260  ls
+  261  ls-elo
+  262  cd ..
+  263  ls
+  264  cd -
+  265  cd ˜
+  266  pwd
+  267  cd /
+  268  ls
+  269  cd -
+  270  pwd
+  271  cd -
+  272  pwd
+  273  history
+  274  pwd
+  275  grep
+  276  man alias
+  277  ls -lah
+  278  df
+  279  man ls
+  280  man
+  281  man histoy
+  282  man cd
+  283  history
+  284  history | grep
+  285  history | grep metal
+  286  history | grep metal -n2
+  287  history
+  288  git checkout
+  289  git branch
+  290  ls
+  291  cd elojasfork
+  292  ls -lah
+  293  cd -
+  294  cd git-workshop
+  295  ls -lah
+  296  git branch
+  297  git log
+  298  git log --graph
+  299  git rebase -i HEAD~3
+  300  git status
+  301  git rebase --edit-todo
+  302  git rebase --continue
+  303  git status
+  304  git checkout
+  305  git log --graph
+  306  git branch
+  307  git branch -d squashing
+  308  git branch -D squashing
+  309  pick 0f1bc8a
+  310  git rebase --continue
+  311  git stash
+  312  git commit -m "test"
+  313  git rebase --continue
+  314  git add .
+  315  git status
+  316  git checkout master
+  317  git add .
+  318  git status
+  319  git stash
+  320  git log --graph
+  321  git log --oneline
+  322  git rebase
+  323  git add .
+  324  git status
+  325  git commit -m "pos rebase"
+  326  git push
+  327  git checkout inter
+  328  echo > testreun.sh
+  329  git commit -m "refazendo o teste commit intermediario"
+  330  git add .
+  331  git commit -m "refazendo o teste commit intermediario"
+  332  cd build
+  333  echo > build2.sh
+  334  git log
+  335  git add .
+  336  git commit -m "adicao do build2"
+  337  git log
+  338  git checkout master
+  339  git log
+  340  git checkout inter
+  341  git log
+  342  git checkout master
+  343  git cherry-pick 7c379df289fba25baf3326d69b4b67e3fbd4cc3e
+  344  git add .
+  345  git commit -m "cherrypick da branch inter para a master - segundo teste"
+  346  git push
+  347  git checkout inter
+  348  git branch -b squashing2
+  349  git checkout squashing2
+  350  git checkout -b squashing2
+  351  git rebase -i HEAD~2
+  352  git rebase --continue
+  353  git checkout master
+  354  git rebase -i HEAD~3
+  355  git rebase --abort
+  356  git checkout squashing2
+  357  git rebase -i HEAD~3
+  358  git rebase --continue
+  359  git checkout squashing
+  360  git checkout squashing2
+  361  git rebase -i HEAD~3
+  362  pick d3ee271
+  363  rebase-i
+  364  git pick d3ee271
+  365  git rebase -i
+  366  git rebase --abort
+  367  git rebase -i
+  368  git rebase squashing2 -i
+  369  git log
+  370  git rebase -i
+  371  git --continue
+  372  git rebase --continue
+  373  git rebase -i
+  374  git rebase squashing2
+  375  git rebase -i HEAD~3
+  376  git rebase -i
+  377  git rebase --edit-todo
+  378  git rebase --abort
+  379  git rebase -i HEAD
+  380  git rebase --abort
+  381  git add .
+  382  git status
+  383  git log --graph
+  384  git branch -d squashing2
+  385  git branch -D squashing2
+  386  git add .
+  387  git commit -m "exclusao do runtest"
+  388  git push
+  389  clear
+  390  git stash
+  391  git log
+  392  git checkout master
+  393  git status
+  394  git dif
+  395  git diff
+  396  git checkout -b inter2
+  397  git log
+  398  git stash drop
+  399  echo > run2.sh
+  400  mkdir build2
+  401  cd build2
+  402  echo > build2.sh
+  403  echo > test2.sh
+  404  git status
+  405  git add run2.sh
+  406  git add ../run2.sh
+  407  git status
+  408  git commi -m "add run2sh"
+  409  git commit -m "add run2sh"
+  410  git log
+  411  git status
+  412  git add ./
+  413  git status
+  414  git restore --staged build2.sh
+  415  git status
+  416  git commit -m "add test2.sh"
+  417  git commit -m "add build2"
+  418  git commit -m "add build2" -a
+  419  git commit -a -m "add build2"
+  420  git commit -m -a "add build2"
+  421  git add .
+  422  git commit -m "add build2"
+  423  git status
+  424  git log
+  425  git checkout master
+  426  git log
+  427  git checkout inter2
+  428  git log
+  429  git checkout master
+  430  git cherry-pick bc85b9d5a313d7e79db63f7314879d80287adccd
+  431  git status
+  432  git log
+  433  git checkout inter2
+  434  git checkout -b squashing2
+  435  git rebase -i HEAD~2
+  436  git rebase --abort
+  437  git rebase -i HEAD~3
+  438  git rebase --abort
+  439  git rebase -i HEAD~3
+  440  git log
+  441  git checkout master
+  442  git rebase squashing2
+  443  git checkout squashing2
+  444  git checkout master
+  445  git push
+  446  git clone https://gitlab.globoi.com/eloyse.fernanda/documentacao.git
+  447  git add .
+  448  git status
+  449  git log
+  450  cd documentacao
+  451  git add .
+  452  git status
+  453  git commit -m "atualizacao da descricao do readme sobre documentacao"
+  454  git log
+  455  git stash
+  456  git log
+  457  git push
+  458  git add .
+  459  git status
+  460  git commit -m "add do documento de comando linux"
+  461  git push
+  462  /msg 45.237.74.225 olaaaa
+  463  clear
+  464  pw
+  465  /pwd
+  466  clear
+  467  pwd
+  468  /cd ..
+  469  cd ..
+  470  git clone https://gitlab.globoi.com/time-infra-scrum/install-ac-raiz.git
+  471  pwd
+  472  ls
+  473  cd install-ac-raiz
+  474  ./install-ac-raiz.sh install
+  475  ./install-ac-raiz.sh test-web
+  476  ssh-keygen -t rsa -C “email-eloyse.fernanda@g.globo” -b 4096
+  477  cat ~/.ssh/id_rsa.pub\n\n
+  478  cd ..
+  479  ls
+  480  cd github
+  481  git clone https://github.com/elojas2/practice.git
+  482  cd /home
+  483  mkdir aluno
+  484  mkdir /aluno
+  485  ls
+  486  cd /home/
+  487  cd /home/eloyse.fernanda
+  488  ls
+  489  cd -
+  490  cd .
+  491  cd ..
+  492  mkdir aluno
+  493  cd aluno
+  494  mkdir projetos
+  495  mkdir comandosEstudados
+  496  mkdir arquivosCriados
+  497  mkdir scripts
+  498  ls
+  499  cd arquivosCriados
+  500  echo lista.txt
+  501  ls
+  502  ls man
+  503  man ls
+  504  ls-lah
+  505  ls-elo
+  506  ls -lah
+  507  echo >lista.txt
+  508  ls
+  509  cp lista.txt ./comandosEstudados
+  510  cd ..
+  511  cd comandosEstudados
+  512  ls
+  513  cd ..
+  514  cd arquivosCriados
+  515  ls
+  516  cd ./aluno
+  517  cd /aluno
+  518  cd aluno
+  519  cd ../aluno
+  520  cd ../
+  521  cd arquivosCriados
+  522  cd ../comandosEstudados
+  523  cd ../arquivosCriados
+  524  ls
+  525  cp lista.txt ../comandosEstudados
+  526  cd ../comandosEstudados
+  527  ls
+  528  pwd
+  529  cd ../arquivosCriados
+  530  cp lista.txt /Users/eloyse.fernanda/Documents/github/aluno/comandosEstudados
+  531  cd ../comandosEstudados
+  532  ls
+  533  echo > lembrar.txt 
+  534  ls
+  535  cp lembrar.txt ../projetos
+  536  cd ../projetos
+  537  ls
+  538  cd ../arquivosCriados
+  539  ls
+  540  cd ls
+  541  ls
+  542  echo > lembrar.txt 
+  543  ls
+  544  cp lembrar.txt ../projetos
+  545  ls
+  546  echo > lembrar.txt > "ola"
+  547  echo > lista.txt > "bom dia"
+  548  echo > "ola, teste," > lista.txt
+  549  echo > "oieeee, bom dia" > lembrar.txt
+  550  echo >> "oieeee, bom dia" > lembrar.txt
+  551  echo >> "ola, teste," > lista.txt
+  552  ls
+  553  rm lista.txt
+  554  ls
+  555  echo > lista.txt
+  556  ls
+  557  rm oieeee,\ bom\ dia
+  558  ls
+  559  rm ola,\ teste,
+  560  ls
+  561  echo "ola bom diaaaa" >> lista.txt
+  562  ls
+  563  echo "oieeeee boa tarde" >> lembrar.txt
+  564  ls
+  565  cat lembrar.txt lista.txt > concat.txt
+  566  ls
+  567  vim
+  568  ls
+  569  cd ../
+  570  ls
+  571  cd aluno
+  572  ls
+  573  cd arquivosCriados
+  574  rm lembrar.txt
+  575  rm lista.txt
+  576  ls
+  577  cd ../comandosEstudados
+  578  echo -e "comandos que digitei:\n" >> historico.txt
+  579  ls
+  580  for i in ($history): do echo "$i" >> historico.txt\ndone
+  581  for i in $(history); do\n  echo "$i" >> historico.txt\ndone
+  582  for i in $(history); do\n  echo "$i" >>= historico.txt\ndone
+  583  ls
+  584  history
+  585  for i in $(history); do\n  echo "$i" >> historico.txt\ndone
+  586  pwd
+  587  cd ..
+  588  ls
+  589  cd arquivosCriados
+  590  echo > file1.txt
+  591  ls
+  592  for i in range(10) echo "$i" >> file1.txt
+  593  for i in $(10); do\n  echo "$i" >> file1.txt\ndone
+  594  for i in (10); do\n  echo "$i" >> file1.txt\ndone
+  595  for i in range(10); do\n  echo "$i" >> file1.txt\ndone
+  596  for i in {1..10}; do\n  echo "$i" >> file1.txt\ndone
+  597  cd ..
+  598  ls
+  599  cd aluno
+  600  ls
+  601  cd arquivosCriados
+  602  for i in {1..10}; do\n  echo "$i" >> file1.txt\ndone
+  603  ls
+  604  echo "11" >> file1.txt
+  605  echo > fileee2.txt
+  606  ls
+  607  rn fileee2.txt file2.txt
+  608  mv fileee2.txt file2.txt
+  609  ls
+  610  cat file1.txt
+  611  cat file2.txt
+  612  vim file1.txt
+  613  head -3
+  614  head -3 file1.txt
+  615  echo "eloyse" >> teste1.txt
+  616  cat teste1.txt
+  617  echo "eloyse" >> teste1.txt
+  618  cat teste1.txt
+  619  echo "eloyse" > teste1.txt
+  620  cat teste1.txt
+  621  head -3 file1.txt
+  622  echo "eloyse"
+  623  file2.txt
+  624  head -3 file1.txt >> file2.txt
+  625  cat file2.txt
+  626  tail -2 file1.txt
+  627  tail -2 file1.txt >> file2.txt
+  628  cat file2.txt
+  629  grep 1 file1.txt
+  630  grep 1 file2.txt
+  631  grep 1 file2.txt -
+  632  grep 1 file2.txt -v
+  633  grep 1 file2.txt -v > file2.txt
+  634  cat file2.txt
+  635  vim file2.txt
+  636  cat file2.txt
+  637  grep 1 file2.txt -v > file3.txt
+  638  cat file3.txt
+  639  rm file2.txt
+  640  ls
+  641  mv file3.txt file2.txt
+  642  ls
+  643  cat file2.txt
+  644  pwd
+  645  cd ..
+  646  pwd
+  647  ls
+  648  ls -lah
+  649  ls -lah | grep .zsh
+  650  ls -lah | grep "Oct 13"
+  651  history
+  652  cd Documents/github/
+  653  ls
+  654  cd aluno
+  655  ls
+  656  cd arquivosCriados
+  657  ls
+  658  history
+  659  for i in $(history); do\n  echo "$i" >> historico2.txt\ndone
+  660  cat historico2.txt
+  661  history
+  662  history > historico1.txt
+  663  cat historico1.txt
+  664  bash
+  665  $history >> historico1.txt
+  666  ls
+  667  history >> historico1.txt
+  668  cat historico1.txt
+  669  rm historico2.txt
+  670  ls
+  671  cat historico1.txt
+  672  cat file1.txt
+  673  11 >> file1.txt
+  674  echo "11" >> file1.txt
+  675  cat file1.txt
+  676  tail -1 file1.txt
+  677  cat file1.txt
+  678  tail -1 file1.txt -v
+  679  tail -1 file1.txt >> file2.txt
+  680  cat file1.txt
+  681  cat file2.txt
+  682  sed -i '$d' file1.txt
+  683  sed man
+  684  man sed
+  685  clear
+  686  history
+  687  vim file1.txt
+  688  git add .
+  689  git commit -m "refazendo arquivo em markdown para simplificar mudancas"
+  690  git status
+  691  git push
+  692  git add .
+  693  git commit -m "ajuste"
+  694  git push
+  695  git add .
+  696  git commit -m "ajuste"
+  697  git push
+  698  git add .
+  699  git commit -m "ajuste markdown"
+  700  git push
+  701  git commit -m "ajuste markdown"
+  702  git add .
+  703  git commit -m "ajuste markdown"
+  704  git push
+  705  git add .
+  706  git commit -m "ajuste markdown"
+  707  git push
+  708  git add .
+  709  git commit -m "ajuste markdown"
+  710  git push
+  711  git add .
+  712  git commit -m "ajuste subtitulo markdown"
+  713  git push
+  714  git add .
+  715  git commit -m "ajuste subtitulo markdown"
+  716  git push
+  717  git add .
+  718  git commit -m "ajuste subtitulo markdown"
+  719  git push
+  720  ping www.google.com.br
+  721  git add .
+  722  git commit -m "lista"
+  723  git push
+  724  git add .
+  725  git commit -m "lista"
+  726  git push
+  727  git add .
+  728  git commit -m "lista"
+  729  git push
+  730  cd .
+  731  pwd
+  732  git add .
+  733  git commit -m "lista"
+  734  git push
+  735  git add .
+  736  git commit -m "lista cd"
+  737  git push
+  738  git add .
+  739  git commit -m "lista cd"
+  740  git push
+  741  git add .
+  742  git commit -m "lista cd"
+  743  git push
+  744  ls man
+  745  man ls
+  746  ls --h
+  747  ls --help
+  748  ls -- help
+  749  ls
+  750  nano
+  751  hostname
+  752  hostname -i
+  753  hostname -I
+  754  option --i
+  755  ip
+  756  ip a
+  757  free -h
+  758  free -m
+  759  cd..
+  760  pwd
+  761  cd
+  762  cd..
+  763  cd ..
+  764  pwd
+  765  ls
+  766  free -m
+  767  htop
+  768  ps
+  769  ps aux
+  770  ps aux | grep gnome-terminal
+  771  df -h
+  772  ncdu
+  773  uname
+  774  lccpu
+  775  lscpu
+  776  lsubs
+  777  lsblk
+  778  whoami
+  779  ls
+  780  cd Users
+  781  ls
+  782  cd eloyse.fernanda
+  783  ls
+  784  cd Documents
+  785  ls
+  786  cd gitlab
+  787  cd
+  788  cd -
+  789  ls
+  790  cd documentacao
+  791  ls
+  792  rm comandos.md comandos-linux.md
+  793  clear
+  794  mv comandos.md comandos-linux.md
+  795  git add .
+  796  git commit -m "mudanca de nome"
+  797  git push
+  798  whoami
+  799  touch elojas.txt
+  800  vim elojas.txt
+  801  cat elojas.txt
+  802  nano elojas.txt
+  803  cat elojas.txt
+  804  mv elojas.txt elojas2.txt
+  805  cp elojas2.txt elojas1.txt
+  806  find -name .txt
+  807  find -name *.txt
+  808  find
+  809  find man
+  810  find -h
+  811  find --h
+  812  find --help
+  813  head elojas2.txt
+  814  head -i 3
+  815  head -3
+  816  clear
+  817  head -3 elojas2.txt 
+  818  ufw elojas2.txt
+  819  ping www.google.com.br
+  820  git add .
+  821  git commit -m "adicao dos comandos do video diolinux"
+  822  git push
+  823  git add .
+  824  git commit -m "organizando e testando comandos"
+  825  git push
+  826  mkdir elojass.txt
+  827  git add .
+  828  git commit -m "organizando lista de comandos"
+  829  git push
+  830  cd arquivosCriados
+  831  cat concat.txt
+  832  cd ..
+  833  ls
+  834  cd ..
+  835  ls
+  836  cd practice
+  837  ls
+  838  cat README.md
+  839  ls
+  840  git fetch upstream
+  841  cd ..
+  842  cd practice
+  843  git fetch upstream
+  844  git stash
+  845  clear
+  846  git status
+  847  history
+  848  git stash list
+  849  git stash
+  850  git log
+  851  git stash apply
+  852  git fetch
+  853  git pull
+  854  git branch
+  855  pull.rebase true
+  856  git pull.rebase true
+  857  git config pull.rebase true
+  858  git pull
+  859  cd ..
+  860  cd practice
+  861  mkdir exercicio1
+  862  cd exercicio1
+  863  mkdir projetos
+  864  mkdir comandosEstudados
+  865  mkdir arquivosCriados
+  866  mkdir scripts
+  867  cd ..
+  868  git remote
+  869  git add .
+  870  git commit -m "comecando os exercicios"
+  871  git push
+  872  cd exercicio1/arquivosCriados
+  873  touch lista1.txt
+  874  vim lista1.txt
+  875  cat lista1.txt
+  876  git add .
+  877  git commit -m "criacao das pastas e lista1"
+  878  git push
+  879  git clone https://github.com/elojas2/message-broker.git
+  880  cd message-broker
+  881  git add .
+  882  git commi -m "atualizacao do readme"
+  883  git commit -m "atualizacao do readme"
+  884  git push
+  885  clear
+  886  python -v
+  887  which python3
+  888  brew install python3
+  889  python -v
+  890  python -version
+  891  which python3
+  892  python -v
+  893  clear
+  894  touch lembrar.txt
+  895  vim lembrar.txt
+  896  cat lembrar.txt
+  897  vim lembrar.txt
+  898  cat lembrar.txt
+  899  git add .
+  900  git commit -m "criacao do arquivo lembrar.txt com algumas infos"
+  901  git push
+  902  cd ..
+  903  cd comandosEstudados
+  904  pwd
+  905  cd ..
+  906  cd arquivosCriados
+  907  cp lista1.txt /Users/eloyse.fernanda/Documents/github/practice/exercicio1/comandosEstudados
+  908  git add .
+  909  git status
+  910  git add ..comandosEstudados/lista1.txt
+  911  cd..
+  912  cd ..
+  913  git add.
+  914  git add .
+  915  git commit -m "adicao da copia da lista1.txt"
+  916  git push
+  917  cd arquivosCriados
+  918  cp lembrar.txt ../projetos
+  919  cd ..
+  920  cd projetos
+  921  cat lembrar.txt
+  922  git add .
+  923  git commit -m "copia do arquivo lembrar.txt para pasta projetos"
+  924  git push
+  925  cd ..
+  926  cd arquivosCriados
+  927  cat lembrar.txt lista1.txt > concat.txt
+  928  cat concat.txt
+  929  git add .
+  930  git commit -m "concatenando arquivos"
+  931  git push
+  932  clear
+  933  rm lembrar.txt
+  934  rm lista1.txt
+  935  cd ../comandosEstudados
