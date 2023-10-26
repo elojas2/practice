@@ -1,6 +1,0 @@
-touch nome_que_quer.txt
-mkdir pasta
-cd ..
-cd .
-cd -
-cat nome_arquivo.txt
