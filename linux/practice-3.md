@@ -17,4 +17,6 @@ números.
 digitados.
 
 
-//anotar seq, uniq file{1..3}.txt
+//anotar seq, 
+uniq 
+file{1..3}.txt
