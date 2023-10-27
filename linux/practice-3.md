@@ -15,3 +15,6 @@ números.
 
 * Crie um arquivo chamado "historico.txt", contendo o historico dos comandos
 digitados.
+
+
+//anotar seq, uniq file{1..3}.txt
