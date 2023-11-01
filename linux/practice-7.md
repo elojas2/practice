@@ -8,6 +8,3 @@
 * Caso o usuário deseje mover solicite o destino, e mova os arquivos.
 
 * Caso escolha for apagar exclua os arquivos.
-
-
-ls -t ../../../Download | tail -10
