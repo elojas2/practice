@@ -24,7 +24,7 @@ controller="1"
         while [ $controller = "1" ]
         do
             echo "Para o arquivo: $arquivo"
-            echo "Digite a opção 'm' para mover e 'a' para apagar, ou 'q' para sair:"
+            echo "Digite a opção 'm' para mover e 'a' para apagar"
             read opcao
             echo "Você tem certeza que deseja apagar o arquivo $arquivo? (s/n)"
             read resposta
@@ -41,7 +41,10 @@ controller="1"
                     echo $(mv -v "$DIRETORIO$arquivo" "$HOME/$destino/")
                 fi
             fi
-            if [[ $opcao != "m" && $opcao != "a" ]]
+            echo "deseja continuar? aperte qualquer tecla, para sair clique q"
+            read validacao
+
+            if [[ $validacao = "q" ]]
             then
                 controller="0"
             fi
