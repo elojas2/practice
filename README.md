@@ -1,3 +1,3 @@
 # practice
 
-Desenvolvimento de shell durante meu estagio na Globo
+Aprendendo sobre Shell Script durante meu estagio na Globo
