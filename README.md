@@ -1,3 +1,3 @@
 # practice
 
-Aprendendo sobre Shell Script durante meu estagio na Globo
+Aprendendo colocando em pratica sobre comandos Linux e Shell Script enquanto estagiaria na Globo.
